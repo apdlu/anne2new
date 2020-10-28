@@ -1,0 +1,114 @@
+body {
+		  border: 1px;
+		  padding-top: 10px;
+		  padding-right: 10px;
+		  padding-bottom: 10px;
+		  padding-left: 10px;
+
+}
+body {
+  font-family: "Times New Roman", Times, body;
+}
+
+.titulos {
+	font-size: 1.875em;
+	background-color:#333;
+	color: #ffffff;
+}
+.sub{
+	font-size: 1.500em;
+}
+footer {
+  		background-color: #333;
+  		color: #ffffff;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+nav {
+	position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+
+}
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.gallery {
+  border: 1px solid #ccc;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+.iamge{
+	width: 50px; height: 50px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body {
+	 box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+
+iframe{
+	width: 100%;
+ 	height: auto;
+}
